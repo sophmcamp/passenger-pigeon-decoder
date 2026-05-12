@@ -26,7 +26,6 @@ public class PassengerPigeonPoem {
                + "\n\nBinary separated by 8 digits:\n" + input.get8binPoem()
                + "\n\nASCII:\n" + input.getASCII()
                + "\n\nAlphanumeric:\n" + input.getText()
-               + "\n\nAlphanumeric:\n" + input.getText()
                );
        }
        catch (FileNotFoundException e) {
